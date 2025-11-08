@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Input Data Mahasiswa</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f0f0f0;
+    }
+    h2 {
+      text-align: center;
+    }
+    form {
+      background-color :rgb(234, 240, 240) ;
+      width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+    }
+    table {
+      width: 90%;
+      border-collapse: collapse;
+      margin: 20px auto;
+      background-color: rgb(255, 255, 255);
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+    th {
+      background-color: #cce5ff;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Input Data Mahasiswa</h2>
+
+  <form>
+    <label>NIM:</label>
+    <input type="text" name="nim">
+
+    <label>Nama:</label>
+    <input type="text" name="nama">
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+    <input type="radio" name="gender" value="Perempuan"> Perempuan
+
+    <label>Tempat Lahir (Kota):</label>
+    <select name="kota">
+      <option> Pilih Kota </option>
+      <option>Denpasar</option>
+      <option>Badung</option>
+      <option>Gianyar</option>
+      <option>Tabanan</option>
+      <option>Buleleng</option>
+    </select>
+
+    <label>Tanggal Lahir:</label>
+    <input type="date" name="tanggal">
+
+    <label>Alamat:</label>
+    <textarea name="alamat" rows="3"></textarea>
+
+    <label>No. HP:</label>
+    <input type="text" name="hp">
+
+    <label>Email:</label>
+    <input type="email" name="email">
+
+    <label>Hobi:</label>
+    <select name="hobi">
+      <option> Pilih Hobi </option>
+      <option>Membaca</option>
+      <option>Olahraga</option>
+      <option>Musik</option>
+      <option>Game</option>
+      <option>Traveling</option>
+    </select>
+
+    <br><br>
+    <input type="submit" value="Simpan">
+  </form>
+
+  <br>
+
+  <table>
+    <tr>
+      <th>NIM</th>
+      <th>Nama</th>
+      <th>Gender</th>
+      <th>Kota</th>
+      <th>Tanggal Lahir</th>
+      <th>Alamat</th>
+      <th>No. HP</th>
+      <th>Email</th>
+      <th>Hobi</th>
+    </tr>
+    <tr>
+      <td>240040056</td>
+      <td>Ida Bagus Putra Wibawa</td>
+      <td>Laki-laki</td>
+      <td>Gianyar</td>
+      <td>2005-11-04</td>
+      <td>Gianyar</td>
+      <td>082144205750</td>
+      <td>putrawibawa5566@gmail.com</td>
+      <td>Game</td>
+    </tr>
+  </table>
+
+</body>
+</html>
