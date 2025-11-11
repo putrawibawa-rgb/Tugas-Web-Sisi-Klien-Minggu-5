@@ -1,1 +1,1 @@
-![Tampilan Web](screenshot InputDataMahasiswa.png)
+![Tampilan Web](Sreenshot InputDataMahasiswa.png)
